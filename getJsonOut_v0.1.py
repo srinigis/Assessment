@@ -1,10 +1,10 @@
 # ----------------Draft version----------------------------------------------------------
 # getJsonOut.py
 #
-# Description: This python returns the json string output with csv file as an input
+# Description: This python script returns the json string output with csv file as an input
 #
 # Changes   :   1) Implemented a basic script which converts the csv to json output
-#                    2) Based on the pdf, mapping needs to be done [Next set of development]
+#               2) Based on the pdf, mapping needs to be done [Next set of development]
 #              
 #
 # Author(s):    Srinivasan Ethiraj
