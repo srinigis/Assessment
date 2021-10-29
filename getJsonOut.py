@@ -102,7 +102,7 @@ def get_json(csvFilePath,logPath):
                      generateErrorLog(logPath,"Asset ID : " +   rows['ID'] + " has invalid data")
         generateErrorLog(logPath, '\n')              
         generateErrorLog(logPath, str(datetime.datetime.now()) + " - End of Log" + '\n')        
-        return json.dumps(dataList.sort(), indent=4)
+        return json.dumps(dataList, indent=4)
       
   except Exception as ex:
           print ("Could not generate a json output - ".format(ex))
