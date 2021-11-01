@@ -1,5 +1,5 @@
 # ------------------------------------------------------------------------------------------------------
-# ExternalScript.py
+# Test_getJsonOut.py
 #
 # Description: Test Script to call the main script to return json output
 
