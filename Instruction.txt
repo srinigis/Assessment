@@ -1,0 +1,6 @@
+Kindly configure the source csv and log file path in the main script and unit test script for successful execution of the script.
+Rejected csv records failing the validation rules will be logged to RejectedAssets.log file.
+Enough comments have been added in the scripts for code reviewer
+The main script returns a json object as a response and the client system can access it to process further.
+The script was tested from my end and it rejected all the csv records from the sample csv file provided as none of the Easting and Northing coordinate values were matching the validation rule 
+However, csv file was modified at my end to test each of the validation rules and tested successfully from my side
